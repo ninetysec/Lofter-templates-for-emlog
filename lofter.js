@@ -37,4 +37,10 @@ function mkhover(obj, newclass) {
 	);
 }
 
-jQuery(document).ready(function(a){a("#roll_top").click(function(){a("html,body").animate({scrollTop:"0px"},800)}),a("#ct").click(function(){a("html,body").animate({scrollTop:a("#comments").offset().top},800)}),a("#fall").click(function(){a("html,body").animate({scrollTop:a("#footer").offset().top},800)})})
+jQuery(document).ready(
+  function(a){
+    a("#roll_top").click(
+      function(){
+        a("html,body").animate({scrollTop:"0px"},800)})
+        }
+      )
